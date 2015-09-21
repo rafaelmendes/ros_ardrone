@@ -15,24 +15,19 @@
 
     ```
     mkdir -p ~/tum_simulator_ws/src
-
     cd  ~/tum_simulator_ws/src
-
     catkin_init_workspace
     ```
 2. Clone this repository
 
     ```
     git clone https://bitbucket.org/rafaelmd/ros_ardrone
-
     ```
 3. Catkin make (can take a few minutes)
 
     ```
     cd ..
-
     catkin_make
-
     ```
 4. Source the environment
 
