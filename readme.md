@@ -1,7 +1,7 @@
 
 # ROS_Drone
 
-==========================
+=============
 ## About
 
 ** Rospy codes and nodes to control an AR.Drone 2.0 using ROS **
@@ -12,7 +12,7 @@
 
 
 ## Setup
-=========================
+=============
 
 ** Installation instruction ** 
 
@@ -44,7 +44,7 @@
 
 
 ## How to start
-=========================
+=============
 
 ** How to start the Ar.drone simulator controlled by keyboard ** 
 
@@ -71,7 +71,7 @@ A = fly down
 T = land
 
 ## Credits and references
-=========================
+=============
 
 1. Tum simulator ported for ROS-Indigo
 https://github.com/dougvk/tum_simulator
