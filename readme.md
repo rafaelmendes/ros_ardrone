@@ -15,10 +15,12 @@
 
     ```
     mkdir -p ~/tum_simulator_ws/src
+
     cd  ~/tum_simulator_ws/src
+
     catkin_init_workspace
     ```
-    
+
 2. Clone this repository
 
     ```
@@ -29,6 +31,7 @@
 
     ```
     cd ..
+    
     catkin_make
     ```
 
