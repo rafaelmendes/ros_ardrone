@@ -1,0 +1,6 @@
+/home/rafael/Documents/codes/ros/ros_ardrone_catkin_ws/src/ros_ardrone/ardrone_tutorials/build/CMakeFiles/_catkin_empty_exported_target.dir
+/home/rafael/Documents/codes/ros/ros_ardrone_catkin_ws/src/ros_ardrone/ardrone_tutorials/build/CMakeFiles/clean_test_results.dir
+/home/rafael/Documents/codes/ros/ros_ardrone_catkin_ws/src/ros_ardrone/ardrone_tutorials/build/CMakeFiles/download_extra_data.dir
+/home/rafael/Documents/codes/ros/ros_ardrone_catkin_ws/src/ros_ardrone/ardrone_tutorials/build/CMakeFiles/doxygen.dir
+/home/rafael/Documents/codes/ros/ros_ardrone_catkin_ws/src/ros_ardrone/ardrone_tutorials/build/CMakeFiles/run_tests.dir
+/home/rafael/Documents/codes/ros/ros_ardrone_catkin_ws/src/ros_ardrone/ardrone_tutorials/build/CMakeFiles/tests.dir

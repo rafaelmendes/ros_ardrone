@@ -1,0 +1,2 @@
+- setup-file:
+    local-name: /home/rafael/Documents/codes/ros/ros_ardrone_catkin_ws/src/ros_ardrone/ardrone_helpers/joy/build/devel/setup.sh

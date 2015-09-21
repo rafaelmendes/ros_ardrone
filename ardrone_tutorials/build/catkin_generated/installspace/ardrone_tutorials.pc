@@ -1,0 +1,8 @@
+prefix=/usr/local
+
+Name: ardrone_tutorials
+Description: Description of ardrone_tutorials
+Version: 1.0.0
+Cflags: 
+Libs: -L/usr/local/lib 
+Requires: 

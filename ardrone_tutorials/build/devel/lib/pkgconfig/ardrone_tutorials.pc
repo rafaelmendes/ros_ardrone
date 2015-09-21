@@ -1,0 +1,8 @@
+prefix=/home/rafael/Documents/codes/ros/ros_ardrone_catkin_ws/src/ros_ardrone/ardrone_tutorials/build/devel
+
+Name: ardrone_tutorials
+Description: Description of ardrone_tutorials
+Version: 1.0.0
+Cflags: 
+Libs: -L/home/rafael/Documents/codes/ros/ros_ardrone_catkin_ws/src/ros_ardrone/ardrone_tutorials/build/devel/lib 
+Requires: 
