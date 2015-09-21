@@ -1,18 +1,13 @@
 
 # ROS_Drone
 
-=============
+--------------------------------
 ## About
 
 ** Rospy codes and nodes to control an AR.Drone 2.0 using ROS **
 
-
-
-
-
-
 ## Setup
-=============
+--------------------------------
 
 ** Installation instruction ** 
 
@@ -20,7 +15,9 @@
 
     ```
     mkdir -p ~/tum_simulator_ws/src
+
     cd  ~/tum_simulator_ws/src
+
     catkin_init_workspace
     ```
 2. Clone this repository
@@ -33,6 +30,7 @@
 
     ```
     cd ..
+
     catkin_make
 
     ```
@@ -44,7 +42,7 @@
 
 
 ## How to start
-=============
+--------------------------------
 
 ** How to start the Ar.drone simulator controlled by keyboard ** 
 
@@ -59,19 +57,20 @@
     ```
     roslaunch ardrone_tutorials keyboard_controller_simu.launch
     ```
+
 3. Control the drone using the keyboard:
 
-Y = take-off
-W = turn left
-R = turn right
-E = move forward
-S = move backward
-Q = fly up
-A = fly down
-T = land
+* Y = take-off
+* W = turn left
+* R = turn right
+* E = move forward
+* S = move backward
+* Q = fly up
+* A = fly down
+* T = land
 
 ## Credits and references
-=============
+--------------------------------
 
 1. Tum simulator ported for ROS-Indigo
 https://github.com/dougvk/tum_simulator
