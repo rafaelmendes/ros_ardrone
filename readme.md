@@ -1,4 +1,3 @@
-
 # ROS_Drone
 
 --------------------------------
@@ -13,39 +12,47 @@
 
 1. Create a catkin workspace for the simulator
 
-    ```
-    mkdir -p ~/tum_simulator_ws/src
-    ```
 
-    ```
-    cd  ~/tum_simulator_ws/src
-    ```
+    
+```
+#!bash
 
-    ```
-    catkin_init_workspace
-    ```
+mkdir -p ~/tum_simulator_ws/src
+```
 
-2. Clone this repository
 
-    ```
-    git clone https://bitbucket.org/rafaelmd/ros_ardrone
-    ```
+
+```
+#!bash
+
+cd  ~/tum_simulator_ws/
+catkin_init_workspace
+```
+
+2. Clone this 
+
+```
+#!bash
+
+git clone https://bitbucket.org/rafaelmd/ros_ardrone
+```
 
 3. Catkin make (can take a few minutes)
 
-    ```
-    cd ..
-    ```
-    
-    ```
-    catkin_make
-    ```
+```
+#!bash
+
+cd ..
+catkin_make
+```
 
 4. Source the environment
 
-    ```
-    source devel/setup.bash
-    ```
+```
+#!bash
+
+source devel/setup.bash
+```
 
 
 ## How to start
@@ -55,15 +62,18 @@
 
 1. If environment is not sourced yet:
 
-    ```
-    source devel/setup.bash
-    ```
+```
+#!bash
+
+source devel/setup.bash
+```
 
 2. Start a simulation: drone controlled by keyboard
+```
+#!bash
 
-    ```
-    roslaunch ardrone_tutorials keyboard_controller_simu.launch
-    ```
+roslaunch ardrone_tutorials keyboard_controller_simu.launch
+```
 
 3. Control the drone using the keyboard:
 
