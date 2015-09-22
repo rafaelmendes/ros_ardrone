@@ -5,6 +5,10 @@
 
 ** Rospy codes and nodes to control an AR.Drone 2.0 using ROS **
 
+* ROS distro: Indigo
+* AR.Drone 2.0
+* Tested on Ubuntu 14.04 (ROS Indigo won't work in earlier versions) 
+
 ## Setup
 --------------------------------
 
