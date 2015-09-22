@@ -75,13 +75,16 @@ roslaunch ardrone_tutorials keyboard_controller_simu.launch
 3. Control the drone using the keyboard:
 
 * Y = take-off
+* H = land
 * W = turn left
 * R = turn right
+* S = fly left
+* F = fly right
 * E = move forward
-* S = move backward
+* D = move backward
 * Q = fly up
 * A = fly down
-* T = land
+
 
 ## Credits and references
 --------------------------------
