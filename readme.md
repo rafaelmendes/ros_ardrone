@@ -18,13 +18,6 @@
 #!bash
 
 mkdir -p ~/tum_simulator_ws/src
-```
-
-
-
-```
-#!bash
-
 cd  ~/tum_simulator_ws/
 catkin_init_workspace
 ```
