@@ -8,7 +8,7 @@
 ## Setup
 --------------------------------
 
-** Installation instruction ** 
+** Installation instructions ** 
 
 1. Create a catkin workspace for the simulator
 
@@ -22,7 +22,7 @@ cd  ~/tum_simulator_ws/
 catkin_init_workspace
 ```
 
-2. Clone this 
+2. Clone this repository
 
 ```
 #!bash
