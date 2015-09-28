@@ -21,8 +21,8 @@
 ```
 #!bash
 
-mkdir -p ~/tum_simulator_ws/src
-cd  ~/tum_simulator_ws/
+mkdir -p tum_simulator_ws/src
+cd  tum_simulator_ws/
 catkin_init_workspace
 ```
 
