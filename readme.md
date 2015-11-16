@@ -72,7 +72,33 @@ source devel/setup.bash
 roslaunch ardrone_tutorials keyboard_controller_simu.launch
 ```
 
-3. Control the drone using the keyboard:
+3. Control the drone using the keyboard. See below for keyboard commands.
+
+** How to start the Ar.drone simulator controlled by keyboard ** 
+
+1. Turn on your AR.Drone 2.0. Wait for the green lights.
+
+2. Connect to the drone's wifi network. It should appear as **ardrone...**
+
+3. From the workspace folder, if environment is not sourced yet:
+
+```
+#!bash
+
+source devel/setup.bash
+```
+
+4. Start the ardrone driver and the keyboard controller. After running this command, you should see the image comming from the front camera of the drone.
+
+```
+#!bash
+
+roslaunch ardrone_tutorials keyboard_controller.launch
+```
+
+5. Control the drone using the keyboard. See below for keyboard commands.
+
+** Keyboard Control ** 
 
 * Y = take-off
 * H = land
@@ -94,3 +120,6 @@ https://github.com/dougvk/tum_simulator
 
 2. Packages to control the drone using keybord and joystick
 https://github.com/mikehamer/ardrone_tutorials
+
+3. Tutorial on how to control the AR.Drone using a keyboard or joystick
+http://robohub.org/up-and-flying-with-the-ar-drone-and-ros-getting-started/
