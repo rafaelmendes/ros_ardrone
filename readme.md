@@ -14,10 +14,8 @@
 
 ** Installation instructions ** 
 
-1. Create a catkin workspace for the simulator
+1 - Create a catkin workspace for the simulator
 
-
-    
 ```
 #!bash
 
@@ -26,7 +24,7 @@ cd  tum_simulator_ws/src
 catkin_init_workspace
 ```
 
-2. Clone this repository
+2 - Clone this repository
 
 ```
 #!bash
@@ -34,7 +32,7 @@ catkin_init_workspace
 git clone https://bitbucket.org/rafaelmd/ros_ardrone
 ```
 
-3. Catkin make (can take a few minutes)
+3 - Catkin make (can take a few minutes)
 
 ```
 #!bash
@@ -43,7 +41,7 @@ cd ..
 catkin_make
 ```
 
-4. Source the environment
+4 - Source the environment
 
 ```
 #!bash
@@ -57,7 +55,7 @@ source devel/setup.bash
 
 ** How to start the Ar.drone simulator controlled by keyboard ** 
 
-1. If environment is not sourced yet:
+1 - If environment is not sourced yet:
 
 ```
 #!bash
@@ -65,22 +63,22 @@ source devel/setup.bash
 source devel/setup.bash
 ```
 
-2. Start a simulation: drone controlled by keyboard
+2 - Start a simulation: drone controlled by keyboard
 ```
 #!bash
 
 roslaunch ardrone_tutorials keyboard_controller_simu.launch
 ```
 
-3. Control the drone using the keyboard. See below for keyboard commands.
+3 - Control the drone using the keyboard. See below for keyboard commands.
 
 ** How to start the Ar.drone simulator controlled by keyboard ** 
 
-1. Turn on your AR.Drone 2.0. Wait for the green lights.
+1 - Turn on your AR.Drone 2.0. Wait for the green lights.
 
-2. Connect to the drone's wifi network. It should appear as **ardrone...**
+2 - Connect to the drone's wifi network. It should appear as **ardrone...**
 
-3. From the workspace folder, if environment is not sourced yet:
+3 - From the workspace folder, if environment is not sourced yet:
 
 ```
 #!bash
@@ -88,7 +86,7 @@ roslaunch ardrone_tutorials keyboard_controller_simu.launch
 source devel/setup.bash
 ```
 
-4. Start the ardrone driver and the keyboard controller. After running this command, you should see the image comming from the front camera of the drone.
+4 - Start the ardrone driver and the keyboard controller. After running this command, you should see the image comming from the front camera of the drone.
 
 ```
 #!bash
@@ -96,7 +94,7 @@ source devel/setup.bash
 roslaunch ardrone_tutorials keyboard_controller.launch
 ```
 
-5. Control the drone using the keyboard. See below for keyboard commands.
+5 - Control the drone using the keyboard. See below for keyboard commands.
 
 ** Keyboard Control ** 
 
